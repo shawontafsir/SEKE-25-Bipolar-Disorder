@@ -1,0 +1,280 @@
+Roberta:
+Epoch 1/5: 100%|███████████████████████████████████████| 2211/2211 [4:14:42<00:00,  6.91s/it, lr=1e-6, train_loss=0.288]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [16:31<00:00,  1.79s/it]
+Accuracy: 0.9692377290205836
+F1-score: 0.9682983682983684
+Precision score: 0.9783325482807348
+Recall score: 0.9584679280110752
+Train and validation losses: 0.20349254478982257, 0.08341403935689001
+=> Saving checkpoint
+Epoch 2/5: 100%|█████████████████████████████████████| 2211/2211 [4:16:57<00:00,  6.97s/it, lr=1e-6, train_loss=0.00352]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [17:51<00:00,  1.94s/it]
+Accuracy: 0.9767021035964714
+F1-score: 0.9763761467889909
+Precision score: 0.9705882352941176
+Recall score: 0.9822335025380711
+Train and validation losses: 0.07185634097966022, 0.06687338048740413
+=> Saving checkpoint
+Epoch 3/5: 100%|███████████████████████████████████████| 2211/2211 [4:13:23<00:00,  6.88s/it, lr=1e-6, train_loss=0.466]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [16:41<00:00,  1.81s/it]
+Accuracy: 0.979416421624067
+F1-score: 0.9788666976312123
+Precision score: 0.985273492286115
+Recall score: 0.9725426857406553
+Train and validation losses: 0.0560840272581797, 0.06161332864848607
+=> Saving checkpoint
+Epoch 4/5: 100%|█████████████████████████████████████| 2211/2211 [4:16:30<00:00,  6.96s/it, lr=1e-6, train_loss=0.00975]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [15:30<00:00,  1.68s/it]
+Accuracy: 0.9788509387016512
+F1-score: 0.9782076681039505
+Precision score: 0.9882269837532376
+Recall score: 0.9683894785417628
+Train and validation losses: 0.04760196350459287, 0.06156407765692368
+=> Saving checkpoint
+Epoch 5/5: 100%|█████████████████████████████████████| 2211/2211 [4:17:27<00:00,  6.99s/it, lr=1e-6, train_loss=0.00855]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [16:12<00:00,  1.76s/it]
+Accuracy: 0.9813390635602804
+F1-score: 0.9808872929456736
+Precision score: 0.9848802046987671
+Recall score: 0.9769266266728196
+Train and validation losses: 0.040929757945319785, 0.05996869054437062
+=> Saving checkpoint
+Train losses per epoch: [0.20349254478982257, 0.07185634097966022, 0.0560840272581797, 0.04760196350459287, 0.040929757945319785]
+Valid losses per epoch: [0.08341403935689001, 0.06687338048740413, 0.06161332864848607, 0.06156407765692368, 0.05996869054437062]
+Evaluating test dataset of 11053 instances: 100%|█████████████████████████████████████| 691/691 [22:13<00:00,  1.93s/it]
+Accuracy: 0.9806387406134082
+F1-score: 0.9801668211306765
+Precision: 0.9843633655994043
+Recall: 0.9760059062384644
+Trained Roberta model in 83105.0163 seconds
+
+Distilbert:
+Epoch 1/5: 100%|██████████████████████████████████████| 2211/2211 [1:54:03<00:00,  3.10s/it, lr=1e-6, train_loss=0.0128]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [08:16<00:00,  1.11it/s]
+Accuracy: 0.966523410992988
+F1-score: 0.9659535311709225
+Precision score: 0.9630733944954128
+Recall score: 0.9688509460083065
+Train and validation losses: 0.21963449259979834, 0.0954584281834324
+=> Saving checkpoint
+Epoch 2/5: 100%|██████████████████████████████████████| 2211/2211 [2:02:26<00:00,  3.32s/it, lr=1e-6, train_loss=0.0141]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [08:52<00:00,  1.04it/s]
+Accuracy: 0.9721782402171455
+F1-score: 0.9717436250861475
+Precision score: 0.9675205855443733
+Recall score: 0.9760036917397323
+Train and validation losses: 0.08722294166272196, 0.0788677046850162
+=> Saving checkpoint
+Epoch 3/5: 100%|█████████████████████████████████████| 2211/2211 [2:04:40<00:00,  3.38s/it, lr=1e-6, train_loss=0.00617]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [07:27<00:00,  1.23it/s]
+Accuracy: 0.9761366206740556
+F1-score: 0.9757108322781167
+Precision score: 0.9735814380886745
+Recall score: 0.9778495616059067
+Train and validation losses: 0.071775966119514, 0.07052639672308689
+=> Saving checkpoint
+Epoch 4/5: 100%|███████████████████████████████████████| 2211/2211 [1:57:00<00:00,  3.18s/it, lr=1e-6, train_loss=0.173]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [08:41<00:00,  1.06it/s]
+Accuracy: 0.9774937796878534
+F1-score: 0.9769702580719825
+Precision score: 0.9800325052240538
+Recall score: 0.9739270881402861
+Train and validation losses: 0.062052764835687835, 0.06567541558916931
+=> Saving checkpoint
+Epoch 5/5: 100%|███████████████████████████████████████| 2211/2211 [1:58:48<00:00,  3.22s/it, lr=1e-6, train_loss=0.129]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [08:36<00:00,  1.07it/s]
+Accuracy: 0.9782854557792354
+F1-score: 0.9779766001376462
+Precision score: 0.9723996350364964
+Recall score: 0.9836179049377018
+Train and validation losses: 0.054852972853333196, 0.06578361955669222
+Train losses per epoch: [0.21963449259979834, 0.08722294166272196, 0.071775966119514, 0.062052764835687835, 0.054852972853333196]
+Valid losses per epoch: [0.0954584281834324, 0.0788677046850162, 0.07052639672308689, 0.06567541558916931, 0.06578361955669222]
+Evaluating test dataset of 11053 instances: 100%|█████████████████████████████████████| 691/691 [10:29<00:00,  1.10it/s]
+Accuracy: 0.9764769745770379
+F1-score: 0.9760809567617296
+Precision: 0.973037417461482
+Recall: 0.9791435954226652
+Trained Distilbert model in 38998.3421 seconds
+
+Albert:
+tokenizer_config.json: 100%|█████████████████████████████████████████████████████████| 25.0/25.0 [00:00<00:00, 72.4kB/s]
+config.json: 100%|█████████████████████████████████████████████████████████████████████| 684/684 [00:00<00:00, 1.73MB/s]
+spiece.model: 100%|██████████████████████████████████████████████████████████████████| 760k/760k [00:00<00:00, 7.78MB/s]
+tokenizer.json: 100%|██████████████████████████████████████████████████████████████| 1.31M/1.31M [00:00<00:00, 9.37MB/s]
+model.safetensors: 100%|███████████████████████████████████████████████████████████| 47.4M/47.4M [00:00<00:00, 75.2MB/s]
+Some weights of AlbertForSequenceClassification were not initialized from the model checkpoint at albert-base-v2 and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/SGF.EDUBEAR.NET/kh597s/.conda/envs/venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+/home/SGF.EDUBEAR.NET/kh597s/research/ACMSE-25/base_train.py:154: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler()
+/home/SGF.EDUBEAR.NET/kh597s/.conda/envs/venv/lib/python3.12/site-packages/torch/amp/grad_scaler.py:132: UserWarning: torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
+  warnings.warn(
+Epoch 1/5: 100%|██████████████████████████████████████| 2211/2211 [4:09:19<00:00,  6.77s/it, lr=1e-6, train_loss=0.0131]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [17:25<00:00,  1.89s/it]
+Accuracy: 0.9643745758878082
+F1-score: 0.9636300658122618
+Precision score: 0.9644095216085047
+Recall score: 0.9628518689432395
+Train and validation losses: 0.2384191195689873, 0.10268201071189659
+=> Saving checkpoint
+Epoch 2/5: 100%|█████████████████████████████████████| 2211/2211 [4:03:00<00:00,  6.59s/it, lr=1e-6, train_loss=0.00588]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [19:21<00:00,  2.10s/it]
+Accuracy: 0.9743270753223253
+F1-score: 0.9739110447075049
+Precision score: 0.9702312800549576
+Recall score: 0.977618827872635
+Train and validation losses: 0.08026225567672761, 0.07685947463768543
+=> Saving checkpoint
+Epoch 3/5: 100%|█████████████████████████████████████| 2211/2211 [4:14:43<00:00,  6.91s/it, lr=1e-6, train_loss=0.00506]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [20:32<00:00,  2.23s/it]
+Accuracy: 0.976475910427505
+F1-score: 0.9761194029850746
+Precision score: 0.9714351005484461
+Recall score: 0.9808491001384403
+Train and validation losses: 0.05812625407071954, 0.07154809117736548
+=> Saving checkpoint
+Epoch 4/5: 100%|█████████████████████████████████████| 2211/2211 [3:58:14<00:00,  6.47s/it, lr=1e-6, train_loss=0.00207]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [18:40<00:00,  2.03s/it]
+Accuracy: 0.9751187514137073
+F1-score: 0.9747995418098511
+Precision score: 0.9679253867151957
+Recall score: 0.9817720350715274
+Train and validation losses: 0.046643575430765145, 0.07351760338119502
+Epoch 5/5: 100%|███████████████████████████████████████| 2211/2211 [4:16:25<00:00,  6.96s/it, lr=1e-6, train_loss=0.388]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [18:17<00:00,  1.98s/it]
+Accuracy: 0.97557113775164
+F1-score: 0.9752860411899313
+Precision score: 0.9673172945982751
+Recall score: 0.9833871712044301
+Train and validation losses: 0.03631990922383049, 0.07435368802811054
+Train losses per epoch: [0.2384191195689873, 0.08026225567672761, 0.05812625407071954, 0.046643575430765145, 0.03631990922383049]
+Valid losses per epoch: [0.10268201071189659, 0.07685947463768543, 0.07154809117736548, 0.07351760338119502, 0.07435368802811054]
+Evaluating test dataset of 11053 instances: 100%|█████████████████████████████████████| 691/691 [24:00<00:00,  2.09s/it]
+Accuracy: 0.9752103501311861
+F1-score: 0.974899230487358
+Precision: 0.9678064750818479
+Recall: 0.9820967146548542
+Trained Albert model in 81631.5183 seconds
+
+Bert:
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/SGF.EDUBEAR.NET/kh597s/.conda/envs/venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+/home/SGF.EDUBEAR.NET/kh597s/research/ACMSE-25/base_train.py:154: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler()
+/home/SGF.EDUBEAR.NET/kh597s/.conda/envs/venv/lib/python3.12/site-packages/torch/amp/grad_scaler.py:132: UserWarning: torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
+  warnings.warn(
+Epoch 1/5: 100%|██████████████████████████████████████| 2211/2211 [4:12:12<00:00,  6.84s/it, lr=1e-6, train_loss=0.0302]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [16:25<00:00,  1.78s/it]
+Accuracy: 0.965053155394707
+F1-score: 0.9648103860608132
+Precision score: 0.9525522824375984
+Recall score: 0.9773880941393632
+Train and validation losses: 0.25487438977701476, 0.10139542278811793
+=> Saving checkpoint
+Epoch 2/5: 100%|███████████████████████████████████████| 2211/2211 [4:12:46<00:00,  6.86s/it, lr=1e-6, train_loss=0.102]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [15:15<00:00,  1.66s/it]
+Accuracy: 0.9720651436326623
+F1-score: 0.9717099988546558
+Precision score: 0.9647486922901979
+Recall score: 0.978772496538994
+Train and validation losses: 0.08848065911480094, 0.07615671040587949
+=> Saving checkpoint
+Epoch 3/5: 100%|███████████████████████████████████████| 2211/2211 [4:12:41<00:00,  6.86s/it, lr=1e-6, train_loss=0.118]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [14:31<00:00,  1.58s/it]
+Accuracy: 0.9760235240895725
+F1-score: 0.9756657483930211
+Precision score: 0.9707629054362723
+Recall score: 0.9806183664051684
+Train and validation losses: 0.06737752945327896, 0.06853088575405208
+=> Saving checkpoint
+Epoch 4/5: 100%|██████████████████████████████████████| 2211/2211 [4:16:56<00:00,  6.97s/it, lr=1e-6, train_loss=0.0288]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [16:59<00:00,  1.84s/it]
+Accuracy: 0.9786247455326849
+F1-score: 0.9781376518218623
+Precision score: 0.980746926467177
+Recall score: 0.9755422242731887
+Train and validation losses: 0.0567270134704559, 0.06283346960021294
+=> Saving checkpoint
+Epoch 5/5: 100%|███████████████████████████████████████| 2211/2211 [4:16:33<00:00,  6.96s/it, lr=1e-6, train_loss=0.019]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [22:00<00:00,  2.39s/it]
+Accuracy: 0.9800950011309658
+F1-score: 0.9797047970479705
+Precision score: 0.979253112033195
+Recall score: 0.9801568989386248
+Train and validation losses: 0.04986827008738736, 0.06090085349777447
+=> Saving checkpoint
+Train losses per epoch: [0.25487438977701476, 0.08848065911480094, 0.06737752945327896, 0.0567270134704559, 0.04986827008738736]
+Valid losses per epoch: [0.10139542278811793, 0.07615671040587949, 0.06853088575405208, 0.06283346960021294, 0.06090085349777447]
+Evaluating test dataset of 11053 instances: 100%|█████████████████████████████████████| 691/691 [18:23<00:00,  1.60s/it]
+Accuracy: 0.9806387406134082
+F1-score: 0.9802254666420255
+Precision: 0.9814951887490747
+Recall: 0.9789590254706534
+Trained Bert model in 82535.8501 seconds
+
+Electra:
+tokenizer_config.json: 100%|██████████████████████████████████████████████████████████| 48.0/48.0 [00:00<00:00, 191kB/s]
+config.json: 100%|█████████████████████████████████████████████████████████████████████| 666/666 [00:00<00:00, 3.40MB/s]
+vocab.txt: 100%|█████████████████████████████████████████████████████████████████████| 232k/232k [00:00<00:00, 7.50MB/s]
+tokenizer.json: 100%|████████████████████████████████████████████████████████████████| 466k/466k [00:00<00:00, 15.2MB/s]
+pytorch_model.bin: 100%|██████████████████████████████████████████████████████████████| 440M/440M [00:03<00:00, 116MB/s]
+Some weights of ElectraForSequenceClassification were not initialized from the model checkpoint at google/electra-base-discriminator and are newly initialized: ['classifier.dense.bias', 'classifier.dense.weight', 'classifier.out_proj.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/SGF.EDUBEAR.NET/kh597s/.conda/envs/venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+/home/SGF.EDUBEAR.NET/kh597s/research/ACMSE-25/base_train.py:154: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler()
+/home/SGF.EDUBEAR.NET/kh597s/.conda/envs/venv/lib/python3.12/site-packages/torch/amp/grad_scaler.py:132: UserWarning: torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
+  warnings.warn(
+Epoch 1/5: 100%|██████████████████████████████████████| 2211/2211 [4:29:06<00:00,  7.30s/it, lr=1e-6, train_loss=0.0384]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [18:23<00:00,  2.00s/it]
+Accuracy: 0.944469577018774
+F1-score: 0.9459191540918603
+Precision score: 0.9049525816649104
+Recall score: 0.9907706506691278
+Train and validation losses: 0.2908346503939309, 0.14862906751281854
+=> Saving checkpoint
+Epoch 2/5: 100%|██████████████████████████████████████| 2211/2211 [4:34:35<00:00,  7.45s/it, lr=1e-6, train_loss=0.0197]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [16:38<00:00,  1.81s/it]
+Accuracy: 0.9712734675412803
+F1-score: 0.9710640236956026
+Precision score: 0.959045904590459
+Recall score: 0.9833871712044301
+Train and validation losses: 0.08470914022190802, 0.08481942578917791
+=> Saving checkpoint
+Epoch 3/5: 100%|██████████████████████████████████████| 2211/2211 [4:21:28<00:00,  7.10s/it, lr=1e-6, train_loss=0.0105]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [21:27<00:00,  2.33s/it]
+Accuracy: 0.9772675865188871
+F1-score: 0.9767226404169079
+Precision score: 0.9804696582190189
+Recall score: 0.9730041532071989
+Train and validation losses: 0.06336712776826486, 0.06748477110443855
+=> Saving checkpoint
+Epoch 4/5: 100%|██████████████████████████████████████| 2211/2211 [4:27:12<00:00,  7.25s/it, lr=1e-6, train_loss=0.0375]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [15:32<00:00,  1.69s/it]
+Accuracy: 0.9780592626102692
+F1-score: 0.9775826207534088
+Precision score: 0.9791666666666666
+Recall score: 0.9760036917397323
+Train and validation losses: 0.055678783007044465, 0.0637013137940095
+=> Saving checkpoint
+Epoch 5/5: 100%|█████████████████████████████████████| 2211/2211 [4:34:20<00:00,  7.45s/it, lr=1e-6, train_loss=0.00305]
+Evaluating validation dataset of 8842 instances: 100%|████████████████████████████████| 553/553 [17:08<00:00,  1.86s/it]
+Accuracy: 0.979416421624067
+F1-score: 0.9789351851851852
+Precision score: 0.9821179749187181
+Recall score: 0.9757729580064606
+Train and validation losses: 0.047712553567729035, 0.062297720898062355
+=> Saving checkpoint
+Train losses per epoch: [0.2908346503939309, 0.08470914022190802, 0.06336712776826486, 0.055678783007044465, 0.047712553567729035]
+Valid losses per epoch: [0.14862906751281854, 0.08481942578917791, 0.06748477110443855, 0.0637013137940095, 0.062297720898062355]
+Evaluating test dataset of 11053 instances: 100%|█████████████████████████████████████| 691/691 [20:47<00:00,  1.81s/it]
+Accuracy: 0.9788292771193341
+F1-score: 0.9782971619365609
+Precision: 0.9832214765100671
+Recall: 0.973421926910299
+Trained Electra model in 87455.6164 seconds

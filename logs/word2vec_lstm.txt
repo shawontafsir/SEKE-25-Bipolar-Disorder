@@ -1,0 +1,100 @@
+LSTMWithAttentionWithWord2Vec:
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/nn/modules/rnn.py:83: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn("dropout option adds dropout after all but last "
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 1/300: 100%|███████████████████████████████████████| 4421/4421 [07:14<00:00, 10.18it/s, lr=1e-6, train_loss=0.701]
+Evaluating valid dataset of 8842 instances: 100%|███████████████████████████████████| 1106/1106 [00:27<00:00, 40.05it/s]
+Accuracy: 0.5098394028500339
+F1 score: 0.0
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.0
+Recall score: 0.0
+Train and validation losses: 0.6939343509159593, 0.6929314705605533
+=> Saving checkpoint
+Epoch 2/300: 100%|███████████████████████████████████████| 4421/4421 [07:05<00:00, 10.38it/s, lr=1e-6, train_loss=0.688]
+Evaluating valid dataset of 8842 instances: 100%|███████████████████████████████████| 1106/1106 [00:34<00:00, 32.45it/s]
+Accuracy: 0.5098394028500339
+F1 score: 0.0
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.0
+Recall score: 0.0
+Train and validation losses: 0.6936137377204628, 0.6930187548263164
+Epoch 3/300: 100%|███████████████████████████████████████| 4421/4421 [07:11<00:00, 10.24it/s, lr=1e-6, train_loss=0.686]
+Evaluating valid dataset of 8842 instances: 100%|███████████████████████████████████| 1106/1106 [00:26<00:00, 41.16it/s]
+Accuracy: 0.5098394028500339
+F1 score: 0.0
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.0
+Recall score: 0.0
+Train and validation losses: 0.6935573047546476, 0.6929460746146887
+Epoch 4/300: 100%|███████████████████████████████████████| 4421/4421 [07:11<00:00, 10.26it/s, lr=1e-6, train_loss=0.719]
+Evaluating valid dataset of 8842 instances: 100%|███████████████████████████████████| 1106/1106 [00:26<00:00, 42.34it/s]
+Accuracy: 0.5098394028500339
+F1 score: 0.0
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.0
+Recall score: 0.0
+Train and validation losses: 0.6935347553913045, 0.6929745081320378
+Early stopping at epoch 4
+Train losses per epoch: [0.6939343509159593, 0.6936137377204628, 0.6935573047546476, 0.6935347553913045]
+Valid losses per epoch: [0.6929314705605533, 0.6930187548263164, 0.6929460746146887, 0.6929745081320378]
+Trained LSTMWithAttentionWithword2vecEmbeddings model in 1837.4847 seconds
+=> Loading checkpoint
+Evaluating test dataset of 11053 instances: 100%|███████████████████████████████████| 1382/1382 [00:36<00:00, 38.34it/s]
+Accuracy: 0.5098163394553515
+F1 score: 0.0
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.0
+Recall score: 0.0
+LSTMWithWord2Vec:
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/nn/modules/rnn.py:83: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn("dropout option adds dropout after all but last "
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 1/300: 100%|███████████████████████████████████████| 4421/4421 [06:54<00:00, 10.67it/s, lr=1e-6, train_loss=0.696]
+Evaluating valid dataset of 8842 instances: 100%|███████████████████████████████████| 1106/1106 [00:20<00:00, 52.82it/s]
+Accuracy: 0.509952499434517
+F1 score: 0.000461361014994233
+Precision score: 1.0
+Recall score: 0.00023073373327180433
+Train and validation losses: 0.6932328403117403, 0.6929523943776895
+=> Saving checkpoint
+Epoch 2/300: 100%|█████████████████████████████████████████| 4421/4421 [07:11<00:00, 10.26it/s, lr=1e-6, train_loss=0.7]
+Evaluating valid dataset of 8842 instances: 100%|███████████████████████████████████| 1106/1106 [00:26<00:00, 42.31it/s]
+Accuracy: 0.509952499434517
+F1 score: 0.000461361014994233
+Precision score: 1.0
+Recall score: 0.00023073373327180433
+Train and validation losses: 0.6935392177447397, 0.6929526346824915
+Epoch 3/300: 100%|███████████████████████████████████████| 4421/4421 [06:45<00:00, 10.89it/s, lr=1e-6, train_loss=0.681]
+Evaluating valid dataset of 8842 instances: 100%|███████████████████████████████████| 1106/1106 [00:34<00:00, 32.50it/s]
+Accuracy: 0.509952499434517
+F1 score: 0.000461361014994233
+Precision score: 1.0
+Recall score: 0.00023073373327180433
+Train and validation losses: 0.6934890923551833, 0.6929862906122294
+Epoch 4/300: 100%|███████████████████████████████████████| 4421/4421 [07:11<00:00, 10.24it/s, lr=1e-6, train_loss=0.712]
+Evaluating valid dataset of 8842 instances: 100%|███████████████████████████████████| 1106/1106 [00:25<00:00, 42.96it/s]
+Accuracy: 0.509952499434517
+F1 score: 0.000461361014994233
+Precision score: 1.0
+Recall score: 0.00023073373327180433
+Train and validation losses: 0.6932856640889078, 0.6929662343498596
+Early stopping at epoch 4
+Train losses per epoch: [0.6932328403117403, 0.6935392177447397, 0.6934890923551833, 0.6932856640889078]
+Valid losses per epoch: [0.6929523943776895, 0.6929526346824915, 0.6929862906122294, 0.6929662343498596]
+Trained LSTMWithword2vecEmbeddings model in 1790.2265 seconds
+=> Loading checkpoint
+Evaluating test dataset of 11053 instances: 100%|███████████████████████████████████| 1382/1382 [00:37<00:00, 36.79it/s]
+Accuracy: 0.5098163394553515
+F1 score: 0.0
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.0
+Recall score: 0.0

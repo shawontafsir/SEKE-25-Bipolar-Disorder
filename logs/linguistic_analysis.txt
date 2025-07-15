@@ -1,0 +1,59 @@
+Avg HashTag per post
+bipolar 0.03939095847055301
+non-bipolar 0.23045160330332565
+
+Avg URL per post
+bipolar 0.01381463581540567
+non-bipolar 0.1525184138084964
+
+Avg post length
+bipolar 894.360549163851
+non-bipolar 959.1728666021874
+
+Bipolar POS tag count:  {'pronoun': 565305, 'verb': 904440, 'adjective': 345039, 'noun': 790376}
+Avg bipolar pos tag count:  [('pronoun', 24.177965014327874), ('verb', 38.68269107394893), ('adjective', 14.757238783627733), ('noun', 33.80419999144605)]
+Non-bipolar group POS tag count:  {'adjective': 370488, 'noun': 1150754, 'verb': 921416, 'pronoun': 510723}
+Avg non-bipolar group pos tag count:  [('adjective', 13.782010267093222), ('noun', 42.80760360092255), ('verb', 34.27631872628525), ('pronoun', 18.998698013540658)]
+
+Avg Tokens count per post
+non-bipolar 93.06052377055279
+bipolar 80.833026816646
+
+            term     tfidf
+3882     bipolar  0.022176
+22050       like  0.021071
+21100       know  0.019851
+13746  feel_like  0.015780
+39328       time  0.015327
+15773        get  0.015088
+23856        med  0.014563
+39005      think  0.014158
+1294        also  0.013792
+23432      manic  0.013679
+38982      thing  0.013609
+13653       feel  0.013289
+12449       even  0.012997
+23417      mania  0.012889
+31227     really  0.012750
+43514       work  0.012530
+27040        one  0.012386
+8573         day  0.012340
+21965       life  0.012197
+42376       want  0.011296
+Topic 0:
+['ibs', 'law_school', 'started_lithium_week_ago', 'im_curious', 'mood_stabilizing', 'difficulty_sleeping', 'acute_mania', 'psoriasis', 'vraylar_mg', 'stomach_problem', 'solian', 'lithium_v', 'seroquel_cause', 'tsh', 'made_gain_weight', 'go_full_blown', 'abilify_v', 'extra_energy', 'taking_combination', 'trying_hold', 'warmer', 'cf', 'shakiness', 'manic_episode_psychotic_feature', 'study_work', 'stance', 'unable_anything', 'shortest', 'mother_told', 'purposefully', 'brand', 'ambilify', 'dietitian', 'aripiprazol', 'seroquel_withdrawal', 'elevate', 'within_first', 'psychiatrist_belief', 'add_adhd', 'work_healthcare']
+Topic 1:
+['http_www_reddit_com', 'bipolar_comment', 'utmsource_share_amp_utmmedium', 'antibiotic', 'orgasm', 'web_amp_context', 'take_mg_seroquel', 'loxapine', 'serequel', 'absolutely_miserable', 'tinnitus', 'lamictal_rash', 'draw_line', 'feel_wired', 'medical_condition', 'wanna_see', 'starting_therapy', 'meet_criterion', 'extreme_stress', 'gt_gt', 'manic_cycle', 'impulse_spending', 'give_anxiety', 'low_carb', 'utmname_iossmf', 'army', 'fasting', 'creative_idea', 'help_thanks_advance', 'iosapp_amp', 'smh', 'tip_manage', 'possible_trigger', 'sex_addiction', 'lithium_hi', 'depressed_rn', 'far_worse', 'trying_pull', 'juice', 'waited_month']
+Topic 2:
+['breakthrough_symptom', 'clear_mind', 'martial_art', 'notice_change', 'suggestion_advice', 'cut_arm', 'bulimic', 'going_rough', 'online_support_group', 'planning_trip', 'dystonia', 'self_sabotaged', 'hassle', 'never_paid', 'low_motivation', 'gorilla', 'seriquel', 'centered', 'end_putting', 'rethinking', 'abilify_made', 'jump_skin', 'amp_nbsp', 'cystic_acne', 'adhd_top', 'difference_two', 'screener', 'resipidone', 'show_movie', 'center_attention', 'heath', 'misophonia', 'ready_bed', 'caving', 'neuralgia', 'cut_half', 'detach', 'helpline', 'summer_break', 'repulsive']
+Topic 3:
+['miss_manic', 'tearing', 'depressed_phase', 'mental_health_clinic', 'told_bos', 'doubt_diagnosis', 'high_hope', 'awake_hour', 'http_www_reddit_com', 'wave_depression', 'back_december', 'change_personality', 'taking_zyprexa', 'double_dose', 'top_lamictal', 'mg_cymbalta', 'hot_minute', 'react_badly', 'im_nervous', 'vaccine', 'stop_cold_turkey', 'spun', 'super_low_dose', 'intense_anger', 'honestly_wish', 'tomlinson', 'make_joke', 'bipolar_autism', 'bipolar_comment', 'upvotes_comment', 'lamictal_gabapentin', 'experienced_hallucination', 'vessel', 'research_found', 'serious_trouble', 'wondering_long', 'happened_previous', 'abilify_propranolol', 'doom', 'undesirable']
+Topic 4:
+['bipolar', 'like', 'know', 'feel_like', 'time', 'get', 'med', 'think', 'also', 'manic', 'thing', 'feel', 'even', 'mania', 'really', 'work', 'one', 'day', 'life', 'want', 'going', 'people', 'depression', 'medication', 'year', 'thought', 'still', 'help', 'episode', 'manic_episode', 'much', 'right', 'feeling', 'would', 'go', 'depressed', 'anyone', 'always', 'way', 'experience']
+Topic 5:
+['mg_vraylar', 'ovulating', 'view_poll_http_www', 'reddit_com_poll', 'quiz', 'talk_doc', 'documentary', 'olazapine', 'guy_recommend', 'bit_nervous', 'hashimoto', 'invega_injection', 'fry', 'cone', 'common_among', 'keep_increasing', 'sluggishness', 'sure_related', 'regress', 'im_crazy', 'trying_set', 'excessive_energy', 'cabinet', 'ever_present', 'thanks_advice', 'menstruating', 'dopamine_rush', 'bpad', 'digestive', 'crazy_mood_swing', 'trying_conceive', 'youtubers', 'grump', 'financial_reason', 'interrupted_sleep', 'deep_deep', 'regret_later', 'man_suck', 'slow_speech', 'negatively_impacting']
+Topic 6:
+['olanzipine', 'epival', 'rlly', 'affirmation', 'bounce_back', 'iv', 'ache', 'seeking_advice', 'final_week', 'fall_love', 'lithium_quetiapine', 'narcissism', 'estrogen', 'political', 'feel_strange', 'pupil', 'irritating', 'bipolar_character', 'go_another', 'want_crawl', 'garage', 'undergoing', 'leave_absence', 'tax', 'twice_year', 'tip_deal', 'becoming_hypomanic', 'encouraging_word', 'reminding', 'possibility_bipolar', 'try_avoid', 'barely_sleep', 'hypomanias', 'persona', 'many_relationship', 'averaging', 'positive_thought', 'dilated', 'breakout', 'ex_partner']
+Topic 7:
+['cup', 'iv', 'advice_would_appreciated', 'mental_health_team', 'mood_tracker', 'severe_mania', 'resulting', 'overtime', 'early_sign', 'diagnosed_bipolar_bpd', 'thought_head', 'parenting', 'service_dog', 'ssi', 'would_really_appreciate', 'feel_like_zombie', 'zoloft_mg', 'feel_angry', 'repeated', 'moving_forward', 'think_clearly', 'cannot_get', 'accepting_diagnosis', 'crazy_thing', 'since_july', 'immensely', 'greater', 'year_old_male', 'struggling_mental_health', 'citalopram', 'hand_tremor', 'time_frame', 'stay_med', 'wary', 'favor', 'um', 'med_seem', 'getting_job', 'irritable_angry', 'reject']
+
