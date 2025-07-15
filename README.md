@@ -1,1 +1,2 @@
 # SEKE-25-Bipolar-Disorder
+The current repository contains the codebase of the research paper "Beyond Architectures: Evaluating the Role of Contextual Embeddings in Detecting Bipolar Disorder on Social Media", which has been accepted in the proceedings of SEKE'25. The dataset for this research work is stored in different storage and is available upon request.
